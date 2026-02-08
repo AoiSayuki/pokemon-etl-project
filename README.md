@@ -1,6 +1,7 @@
 # Pokémon Data Analytics Pipeline (ETL)
 ## 📋 Project Overview
 This project demonstrates a full ETL (Extract, Transform, Load) pipeline that processes data for all 1,025 Pokémon across 9 generations. The goal was to analyze Pokémon species as "assets," comparing performance metrics, type efficiencies, and generational trends.
+![Pokémon Dashboard](dashboard/pokemon_dashboard.png)
 
 ## 🛠️ Tech Stack
 - Language: Python 3.x
@@ -60,6 +61,7 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
 4. Connect to Power BI:
   - Open the .pbix file.
 5. Update the ODBC DSN to point to your local pokemon_db.db file.
+
 
 
 
