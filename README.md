@@ -32,7 +32,7 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
   - Stat Distribution: Bar Chart showing the spread of Total Stats across different Primary Types.
 
 ## 📁 Project Structure
-
+```
 ├── data/
 │   ├── raw_pokemon_data.csv       # Original pokemon data
 │   ├── raw_type_data.csv          # Original type data
@@ -48,7 +48,7 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
 ├── dashboard/
 │   └── pokemon_analytics.pbix     # Power BI Dashboard file
 └── README.md
-
+```
 
 ## 🚀 How to Run
 1. Clone the repository.
@@ -60,4 +60,5 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
 4. Connect to Power BI:
   - Open the .pbix file.
 5. Update the ODBC DSN to point to your local pokemon_db.db file.
+
 
