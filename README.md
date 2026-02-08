@@ -33,20 +33,20 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
 
 ## 📁 Project Structure
 ```
-├── data/
-│   ├── raw_pokemon_data.csv       # Original pokemon data
-│   ├── raw_type_data.csv          # Original type data
-│   ├── clean_pokemon_data.csv     # Transformed data
-│   └── clean_type_data.csv        # Processed type relations
-├── db/
-│   └── pokemon_db.db              # Final SQLite Database
-├── scripts/
-│   ├── extract_pokemon.py         # Pokemon collection script
-│   ├── extract_type_relations.py  # Type collection script
-│   ├── transform_script.py        # Pandas cleaning logic
-│   └── load_script.py             # SQLAlchemy loading logic
 ├── dashboard/
-│   └── pokemon_analytics.pbix     # Power BI Dashboard file
+│   └── pokemon_visualizations.pbix  # Power BI Dashboard file
+├── data/
+│   ├── raw_pokemon_data.csv         # Original pokemon data
+│   ├── raw_type_data.csv            # Original type data
+│   ├── clean_pokemon_data.csv       # Transformed data
+│   └── clean_type_data.csv          # Processed type relations
+├── db/
+│   └── pokemon_db.db                # Final SQLite Database
+├── scripts/
+│   ├── extract_pokemon.py           # Pokemon collection script
+│   ├── extract_type_relations.py    # Type collection script
+│   ├── transform_script.py          # Pandas cleaning logic
+│   └── load_script.py               # SQLAlchemy loading logic
 └── README.md
 ```
 
@@ -60,5 +60,6 @@ This project demonstrates a full ETL (Extract, Transform, Load) pipeline that pr
 4. Connect to Power BI:
   - Open the .pbix file.
 5. Update the ODBC DSN to point to your local pokemon_db.db file.
+
 
 
